@@ -1,11 +1,4 @@
-export type Movie = {
-  id: number;
-  title: string;
-  vote_average: number;
-  poster_path: string;
-  release_date: string;
-  original_language: string;
-};
+import type { Movie } from "../types/Movie";
 
 type MovieProps = { movie: Movie };
 
